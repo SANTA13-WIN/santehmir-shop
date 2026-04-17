@@ -1,29 +1,27 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO -->
-  <title>САНТЕХМИР — Премиальная сантехника | Итальянский дизайн, немецкое качество</title>
-  <meta name="description" content="САНТЕХМИР — официальный дилер премиальной сантехники. Более 34 000 товаров: душевые кабины, раковины, смесители, унитазы, ванны. Гарантия 5 лет. Рассрочка 0%. Бесплатная доставка от 30 000 ₽.">
-  <meta name="keywords" content="сантехника, душевые кабины, смесители, унитазы, ванны, раковины, премиум, купить сантехнику">
+  <title>САНТЕХМИР — Премиальная сантехника | Итальянский дизайн</title>
+  <meta name="description" content="САНТЕХМИР — официальный дилер премиальной сантехники. Душевые кабины, раковины, смесители, унитазы, ванны. Гарантия 5 лет. Рассрочка 0%.">
+  <meta name="keywords" content="сантехника, душевые кабины, смесители, унитазы, ванны, раковины, премиум">
   <meta name="author" content="САНТЕХМИР">
   <meta name="robots" content="index, follow">
   
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://santehmir.ru/">
+  <meta property="og:url" content="https://santehmir.com/">
   <meta property="og:title" content="САНТЕХМИР — Премиальная сантехника">
-  <meta property="og:description" content="Итальянский дизайн и немецкое качество. Более 34 000 товаров. Гарантия 5 лет.">
-  <meta property="og:image" content="https://santehmir.ru/og-image.jpg">
-  <meta property="og:site_name" content="САНТЕХМИР">
+  <meta property="og:description" content="Итальянский дизайн и немецкое качество. Более 34 000 товаров.">
+  <meta property="og:image" content="http://ae01.alicdn.com/kf/HTB1LMMyMVXXXXaVXVXXq6xXFXXXk/3.jpg">
   
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%230A7B8C'/%3E%3Ctext x='50' y='70' font-size='50' text-anchor='middle' fill='white'%3E💧%3C/text%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%230A7B8C'/%3E%3Ctext x='50' y='70' font-size='50' text-anchor='middle' fill='%23D4A017'%3E💧%3C/text%3E%3C/svg%3E">
   
-  <!-- Стили -->
+  <!-- Стили и шрифты -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -31,19 +29,7 @@
 <body>
 
 <!-- ШАПКА -->
-<header class="header">
-  <div class="header__top">
-    <div class="container">
-      <div class="header__top-inner">
-        <p class="header__slogan"><i class="fas fa-check-circle"></i> Официальный дилер • Гарантия 5 лет • Рассрочка 0%</p>
-        <div class="header__contacts">
-          <a href="tel:88005553535"><i class="fas fa-phone-alt"></i> 8 (800) 555-35-35</a>
-          <a href="mailto:hello@santehmir.ru"><i class="fas fa-envelope"></i> hello@santehmir.ru</a>
-          <a href="https://wa.me/78005553535" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-        </div>
-      </div>
-    </div>
-  </div>
+<header class="header" id="header">
   <div class="header__main">
     <div class="container">
       <div class="header__main-inner">
@@ -55,7 +41,7 @@
           <button class="header__catalog-btn" id="catalogMenuBtn"><i class="fas fa-bars"></i><span>Каталог</span></button>
           <div class="search-box">
             <i class="fas fa-search search-box__icon"></i>
-            <input type="text" id="searchInput" class="search-box__input" placeholder="Поиск среди 34 000 товаров...">
+            <input type="text" id="searchInput" class="search-box__input" placeholder="Поиск среди товаров...">
           </div>
         </div>
         <div class="header__actions">
@@ -71,11 +57,11 @@
   <div class="mega-menu" id="megaMenu">
     <div class="container">
       <div class="mega-menu__grid">
-        <div class="mega-menu__column"><h4><i class="fas fa-shower"></i> Душевые</h4><ul><li><a href="#" data-cat="shower">Все душевые</a></li><li><a href="#">Квадратные</a></li><li><a href="#">Прямоугольные</a></li><li><a href="#">Угловые</a></li></ul></div>
-        <div class="mega-menu__column"><h4><i class="fas fa-faucet"></i> Смесители</h4><ul><li><a href="#" data-cat="faucet">Все смесители</a></li><li><a href="#">Для раковины</a></li><li><a href="#">Для ванны</a></li><li><a href="#">Термостаты</a></li></ul></div>
-        <div class="mega-menu__column"><h4><i class="fas fa-sink"></i> Раковины</h4><ul><li><a href="#" data-cat="sink">Все раковины</a></li><li><a href="#">Подвесные</a></li><li><a href="#">Накладные</a></li><li><a href="#">С тумбой</a></li></ul></div>
-        <div class="mega-menu__column"><h4><i class="fas fa-toilet"></i> Унитазы</h4><ul><li><a href="#" data-cat="toilet">Все унитазы</a></li><li><a href="#">Подвесные</a></li><li><a href="#">Напольные</a></li><li><a href="#">Инсталляции</a></li></ul></div>
-        <div class="mega-menu__column"><h4><i class="fas fa-bath"></i> Ванны</h4><ul><li><a href="#" data-cat="bath">Все ванны</a></li><li><a href="#">Акриловые</a></li><li><a href="#">Чугунные</a></li><li><a href="#">Отдельностоящие</a></li></ul></div>
+        <div class="mega-menu__column"><h4><i class="fas fa-shower"></i> Душевые</h4><ul><li><a href="#" data-cat="shower">Все душевые</a></li></ul></div>
+        <div class="mega-menu__column"><h4><i class="fas fa-faucet"></i> Смесители</h4><ul><li><a href="#" data-cat="faucet">Все смесители</a></li></ul></div>
+        <div class="mega-menu__column"><h4><i class="fas fa-sink"></i> Раковины</h4><ul><li><a href="#" data-cat="sink">Все раковины</a></li></ul></div>
+        <div class="mega-menu__column"><h4><i class="fas fa-toilet"></i> Унитазы</h4><ul><li><a href="#" data-cat="toilet">Все унитазы</a></li></ul></div>
+        <div class="mega-menu__column"><h4><i class="fas fa-bath"></i> Ванны</h4><ul><li><a href="#" data-cat="bath">Все ванны</a></li></ul></div>
       </div>
     </div>
   </div>
@@ -84,42 +70,46 @@
 <!-- Хлебные крошки -->
 <div class="breadcrumbs"><div class="container"><ul class="breadcrumbs__list"><li><a href="/">Главная</a></li><li><span>Каталог</span></li></ul></div></div>
 
-<!-- Баннер -->
-<section class="hero">
+<!-- БАННЕР С ЗОЛОТЫМ СМЕСИТЕЛЕМ -->
+<section class="hero hero--with-mixer">
+  <div class="hero__bg-shape"></div>
   <div class="container">
     <div class="hero__inner">
       <div class="hero__content">
-        <span class="hero__badge">Итальянский дизайн • Немецкое качество</span>
+        <span class="hero__badge"><i class="fas fa-gem"></i> Итальянский дизайн • Немецкое качество</span>
         <h1 class="hero__title">Создайте ванную <br>своей <span class="hero__title-accent">мечты</span></h1>
         <p class="hero__desc">Премиальная сантехника от официального дилера. Более 34 000 товаров в наличии.</p>
         <div class="hero__actions">
           <a href="#catalog" class="btn btn-primary btn-large">Смотреть каталог <i class="fas fa-arrow-right"></i></a>
           <div class="hero__promo"><span class="hero__promo-code">FIRST20</span><span class="hero__promo-text">−20% на первый заказ</span></div>
         </div>
+        <div class="hero__stats">
+          <div class="stat-item"><span class="stat-item__number">34k+</span><span class="stat-item__label">товаров</span></div>
+          <div class="stat-item"><span class="stat-item__number">5</span><span class="stat-item__label">лет гарантии</span></div>
+          <div class="stat-item"><span class="stat-item__number">0%</span><span class="stat-item__label">рассрочка</span></div>
+        </div>
       </div>
-      <div class="hero__stats">
-        <div class="stat-item"><span class="stat-item__number">34k+</span><span class="stat-item__label">товаров</span></div>
-        <div class="stat-item"><span class="stat-item__number">5</span><span class="stat-item__label">лет гарантии</span></div>
-        <div class="stat-item"><span class="stat-item__number">0%</span><span class="stat-item__label">рассрочка</span></div>
+      <div class="hero__visual">
+        <img src="http://ae01.alicdn.com/kf/HTB1LMMyMVXXXXaVXVXXq6xXFXXXk/3.jpg" alt="Золотой смеситель" class="hero__mixer">
+        <div class="hero__glow"></div>
       </div>
     </div>
   </div>
-  <div class="hero__bg"><div class="hero__shape hero__shape-1"></div><div class="hero__shape hero__shape-2"></div></div>
 </section>
 
-<!-- Преимущества -->
+<!-- ПРЕИМУЩЕСТВА -->
 <section class="features">
   <div class="container">
     <div class="features__grid">
-      <div class="feature-card"><div class="feature-card__icon"><i class="fas fa-truck"></i></div><h3>Бесплатная доставка</h3><p>При заказе от 30 000 ₽</p></div>
-      <div class="feature-card"><div class="feature-card__icon"><i class="fas fa-shield-alt"></i></div><h3>Гарантия 5 лет</h3><p>Официальная гарантия</p></div>
-      <div class="feature-card"><div class="feature-card__icon"><i class="fas fa-credit-card"></i></div><h3>Рассрочка 0%</h3><p>Без переплат</p></div>
-      <div class="feature-card"><div class="feature-card__icon"><i class="fas fa-tools"></i></div><h3>Монтаж</h3><p>Бесплатно от 50 000 ₽</p></div>
+      <div class="feature-card"><div class="feature-card__icon"><i class="fas fa-truck"></i></div><h3>Бесплатная доставка</h3><p>от 30 000 ₽</p></div>
+      <div class="feature-card"><div class="feature-card__icon"><i class="fas fa-shield-alt"></i></div><h3>Гарантия 5 лет</h3><p>официальная</p></div>
+      <div class="feature-card"><div class="feature-card__icon"><i class="fas fa-credit-card"></i></div><h3>Рассрочка 0%</h3><p>без переплат</p></div>
+      <div class="feature-card"><div class="feature-card__icon"><i class="fas fa-tools"></i></div><h3>Монтаж</h3><p>бесплатно от 50 000 ₽</p></div>
     </div>
   </div>
 </section>
 
-<!-- Каталог -->
+<!-- КАТАЛОГ -->
 <section class="catalog" id="catalog">
   <div class="container">
     <div class="catalog__header">
@@ -131,11 +121,13 @@
         </div>
         <select id="sortSelect" class="sort-select">
           <option value="default">По умолчанию</option>
-          <option value="price-asc">Сначала дешевле</option>
-          <option value="price-desc">Сначала дороже</option>
+          <option value="price-asc">Цена ↑</option>
+          <option value="price-desc">Цена ↓</option>
         </select>
       </div>
     </div>
+    
+    <!-- ФИЛЬТРЫ -->
     <div class="catalog__filters">
       <div class="filter-tabs">
         <button class="filter-tab active" data-cat="all">Все</button>
@@ -145,13 +137,26 @@
         <button class="filter-tab" data-cat="toilet"><i class="fas fa-toilet"></i> Унитазы</button>
         <button class="filter-tab" data-cat="bath"><i class="fas fa-bath"></i> Ванны</button>
       </div>
+      
+      <!-- ЦЕНОВОЙ ФИЛЬТР -->
+      <div class="price-filter">
+        <h4><i class="fas fa-ruble-sign"></i> Цена, ₽</h4>
+        <div class="price-filter__inputs">
+          <input type="number" id="priceMin" placeholder="от" value="0">
+          <span>—</span>
+          <input type="number" id="priceMax" placeholder="до" value="200000">
+        </div>
+        <button class="btn btn-outline btn-small" id="applyPriceFilter">Применить</button>
+        <button class="btn btn-outline btn-small" id="resetPriceFilter">Сбросить</button>
+      </div>
     </div>
+    
     <div class="catalog__grid" id="catalogGrid"></div>
     <div id="pagination" class="pagination"></div>
   </div>
 </section>
 
-<!-- Промо -->
+<!-- ПРОМО -->
 <section class="promo-section">
   <div class="container">
     <div class="promo-card">
@@ -166,7 +171,7 @@
   </div>
 </section>
 
-<!-- Футер -->
+<!-- ФУТЕР -->
 <footer class="footer">
   <div class="container">
     <div class="footer__main">
@@ -176,123 +181,31 @@
       </div>
       <div class="footer__links">
         <h4>Каталог</h4>
-        <ul><li><a href="#">Душевые</a></li><li><a href="#">Смесители</a></li><li><a href="#">Раковины</a></li><li><a href="#">Унитазы</a></li></ul>
+        <ul><li><a href="#">Душевые</a></li><li><a href="#">Смесители</a></li><li><a href="#">Раковины</a></li></ul>
       </div>
       <div class="footer__links">
         <h4>Покупателям</h4>
-        <ul><li><a href="#">Доставка</a></li><li><a href="#">Гарантия</a></li><li><a href="#">Рассрочка</a></li><li><a href="#">Контакты</a></li></ul>
+        <ul><li><a href="#">Доставка</a></li><li><a href="#">Гарантия</a></li><li><a href="#">Контакты</a></li></ul>
       </div>
       <div class="footer__contacts">
         <h4>Связь с нами</h4>
         <p><i class="fas fa-phone-alt"></i> <a href="tel:88005553535">8 (800) 555-35-35</a></p>
-        <p><i class="fas fa-envelope"></i> <a href="mailto:hello@santehmir.ru">hello@santehmir.ru</a></p>
-        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/78005553535" target="_blank">WhatsApp</a></p>
-        <p><i class="fab fa-telegram"></i> <a href="https://t.me/santehmir" target="_blank">Telegram</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:Santehmir_info@mail.ru">Santehmir_info@mail.ru</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/78005553535">WhatsApp</a></p>
       </div>
     </div>
-    <div class="footer__bottom"><p>© 2025 САНТЕХМИР. Все права защищены.</p></div>
+    <div class="footer__bottom"><p>© 2025 САНТЕХМИР. santehmir.com</p></div>
   </div>
 </footer>
 
-<!-- Модалки -->
-<div class="modal" id="cartModal">
-  <div class="modal__overlay"></div>
-  <div class="modal__container">
-    <div class="modal__header"><h3><i class="fas fa-shopping-cart"></i> Корзина</h3><button class="modal__close" onclick="closeModal('cartModal')">&times;</button></div>
-    <div class="modal__body" id="cartItems"></div>
-    <div class="modal__footer">
-      <div class="promo-box"><input type="text" id="promoInput" placeholder="Промокод" value="FIRST20"><button class="btn btn-outline" id="applyPromo">Применить</button></div>
-      <div class="cart-total"><span>Итого:</span><strong id="cartTotal">0</strong><span>₽</span></div>
-      <button class="btn btn-primary btn-block" id="checkoutBtn">Оформить заказ</button>
-    </div>
-  </div>
-</div>
+<!-- МОДАЛКИ -->
+<div class="modal" id="cartModal"><div class="modal__overlay"></div><div class="modal__container"><div class="modal__header"><h3>Корзина</h3><button class="modal__close" onclick="closeModal('cartModal')">&times;</button></div><div class="modal__body" id="cartItems"></div><div class="modal__footer"><div class="promo-box"><input type="text" id="promoInput" value="FIRST20"><button class="btn btn-outline" id="applyPromo">Применить</button></div><div class="cart-total">Итого: <strong id="cartTotal">0</strong> ₽</div><button class="btn btn-primary btn-block" id="checkoutBtn">Оформить</button></div></div></div>
 
-<div class="modal" id="checkoutModal">
-  <div class="modal__overlay"></div>
-  <div class="modal__container">
-    <div class="modal__header"><h3><i class="fas fa-clipboard-check"></i> Оформление</h3><button class="modal__close" onclick="closeModal('checkoutModal')">&times;</button></div>
-    <div class="modal__body">
-      <form id="checkoutForm">
-        <div class="form-group"><label>Имя *</label><input type="text" id="customerName" required placeholder="Иван Петров"></div>
-        <div class="form-group"><label>Телефон *</label><input type="tel" id="customerPhone" required placeholder="+7 (999) 123-45-67"></div>
-        <div class="form-group"><label>Email</label><input type="email" id="customerEmail" placeholder="ivan@mail.ru"></div>
-        <div class="form-group"><label>Адрес *</label><input type="text" id="customerAddress" required placeholder="г. Москва, ул. Примерная, 1"></div>
-        <div class="form-group"><label>Доставка</label><select id="deliveryMethod"><option value="courier">Курьер</option><option value="pickup">Самовывоз</option></select></div>
-        <div class="form-group"><label>Оплата</label><select id="paymentMethod"><option value="card">Картой онлайн</option><option value="cash">Наличными</option></select></div>
-        <div class="form-group"><label>Комментарий</label><textarea id="orderComment" rows="2"></textarea></div>
-        <div class="checkout-summary">
-          <div class="checkout-summary__row"><span>Товаров:</span><span id="checkoutQty">0</span></div>
-          <div class="checkout-summary__row"><span>Сумма:</span><span id="checkoutSum">0</span> ₽</div>
-          <div class="checkout-summary__row checkout-summary__total"><span>К оплате:</span><strong id="checkoutTotal">0</strong> ₽</div>
-        </div>
-        <div class="form-group"><label><input type="checkbox" required> Согласен с условиями</label></div>
-        <button type="submit" class="btn btn-primary btn-block">Подтвердить заказ</button>
-      </form>
-    </div>
-  </div>
-</div>
+<div class="modal" id="checkoutModal"><div class="modal__overlay"></div><div class="modal__container"><div class="modal__header"><h3>Оформление</h3><button class="modal__close" onclick="closeModal('checkoutModal')">&times;</button></div><div class="modal__body"><form id="checkoutForm"><div class="form-group"><input type="text" id="customerName" placeholder="Имя *" required></div><div class="form-group"><input type="tel" id="customerPhone" placeholder="Телефон *" required></div><div class="form-group"><input type="email" id="customerEmail" placeholder="Email"></div><div class="form-group"><input type="text" id="customerAddress" placeholder="Адрес *" required></div><div class="checkout-summary">Товаров: <span id="checkoutQty">0</span> на <span id="checkoutSum">0</span> ₽<br><strong>К оплате: <span id="checkoutTotal">0</span> ₽</strong></div><div class="form-group"><label><input type="checkbox" required> Согласен</label></div><button type="submit" class="btn btn-primary btn-block">Подтвердить</button></form></div></div></div>
 
-<div class="modal" id="thankYouModal">
-  <div class="modal__overlay"></div>
-  <div class="modal__container">
-    <div class="modal__body" style="text-align:center;padding:40px;">
-      <i class="fas fa-check-circle" style="font-size:72px;color:#27ae60;margin-bottom:20px;"></i>
-      <h2>🎉 Заказ оформлен!</h2>
-      <p>Спасибо, <span id="thankYouName"></span>!</p>
-      <p>Номер заказа: <strong id="orderNumber"></strong></p>
-      <p>Мы свяжемся с вами в ближайшее время.</p>
-      <button class="btn btn-primary" onclick="closeModal('thankYouModal'); window.location.reload();">Продолжить</button>
-    </div>
-  </div>
-</div>
+<div class="modal" id="thankYouModal"><div class="modal__overlay"></div><div class="modal__container"><div class="modal__body" style="text-align:center;padding:40px;"><i class="fas fa-check-circle" style="font-size:72px;color:#27ae60;"></i><h2>Заказ оформлен!</h2><p>Спасибо, <span id="thankYouName"></span>!</p><p>Номер: <strong id="orderNumber"></strong></p><p>Уведомление отправлено на Santehmir_info@mail.ru</p><button class="btn btn-primary" onclick="closeModal('thankYouModal'); window.location.reload();">Продолжить</button></div></div></div>
 
-<div class="modal" id="adminModal">
-  <div class="modal__overlay"></div>
-  <div class="modal__container modal__container--wide">
-    <div class="modal__header"><h3><i class="fas fa-crown" style="color:#FFD700;"></i> Админ-панель</h3><button class="modal__close" onclick="closeModal('adminModal')">&times;</button></div>
-    <div class="modal__body">
-      <div class="admin-tabs">
-        <button class="admin-tab active" data-tab="products">Товары</button>
-        <button class="admin-tab" data-tab="orders">Заказы</button>
-        <button class="admin-tab" data-tab="import">Импорт</button>
-        <button class="admin-tab" data-tab="seo">SEO</button>
-      </div>
-      <div id="tab-products">
-        <div class="admin-actions">
-          <button class="btn btn-outline" onclick="clearAllProducts()">Очистить</button>
-          <span>Всего: <span id="totalProductsCount">0</span></span>
-        </div>
-        <table class="admin-table" id="adminTable"><thead><tr><th>Название</th><th>Цена</th><th></th></tr></thead><tbody></tbody></table>
-      </div>
-      <div id="tab-orders" style="display:none">
-        <div class="admin-actions">
-          <button class="btn btn-outline" onclick="exportOrders()">Экспорт</button>
-          <button class="btn btn-outline" onclick="clearOrders()">Очистить</button>
-        </div>
-        <table class="admin-table" id="ordersTable"><thead><tr><th>№</th><th>Дата</th><th>Клиент</th><th>Сумма</th><th>Статус</th><th></th></tr></thead><tbody></tbody></table>
-      </div>
-      <div id="tab-import" style="display:none">
-        <div class="import-zone" onclick="document.getElementById('importFile').click()"><i class="fas fa-cloud-upload-alt"></i><p>Выберите JSON/CSV</p><input type="file" id="importFile" accept=".json,.csv" style="display:none"></div>
-        <div id="importStatus"></div>
-        <div class="import-fields">
-          <div><label>Название</label><select id="fieldName"></select></div>
-          <div><label>Цена</label><select id="fieldPrice"></select></div>
-          <div><label>Артикул</label><select id="fieldArticle"></select></div>
-          <div><label>Фото</label><select id="fieldImage"></select></div>
-        </div>
-        <button class="btn btn-primary" id="runImport">Импортировать</button>
-      </div>
-      <div id="tab-seo" style="display:none">
-        <div class="form-group"><label>Title</label><input type="text" id="seoTitle" value="САНТЕХМИР"></div>
-        <div class="form-group"><label>Description</label><textarea id="seoDesc">Премиальная сантехника.</textarea></div>
-        <div class="form-group"><label>Keywords</label><input type="text" id="seoKeywords" value="сантехника, смесители"></div>
-        <button class="btn btn-primary" id="applySeo">Применить</button>
-        <button class="btn btn-outline" id="generateSitemap">Sitemap.xml</button>
-      </div>
-    </div>
-  </div>
-</div>
+<div class="modal" id="adminModal"><div class="modal__overlay"></div><div class="modal__container modal__container--wide"><div class="modal__header"><h3><i class="fas fa-crown" style="color:#FFD700;"></i> Админ-панель</h3><button class="modal__close" onclick="closeModal('adminModal')">&times;</button></div><div class="modal__body"><div class="admin-tabs"><button class="admin-tab active" data-tab="products">Товары</button><button class="admin-tab" data-tab="orders">Заказы</button><button class="admin-tab" data-tab="import">Импорт</button><button class="admin-tab" data-tab="seo">SEO</button></div><div id="tab-products"><button class="btn btn-outline" onclick="clearAllProducts()">Очистить</button><span>Всего: <span id="totalProductsCount">0</span></span><table class="admin-table"><thead><tr><th>Название</th><th>Цена</th><th></th></tr></thead><tbody id="adminProductsBody"></tbody></table></div><div id="tab-orders" style="display:none;"><button class="btn btn-outline" onclick="exportOrders()">Экспорт</button><table class="admin-table"><thead><tr><th>№</th><th>Дата</th><th>Клиент</th><th>Сумма</th></tr></thead><tbody id="ordersBody"></tbody></table></div><div id="tab-import" style="display:none;"><div class="import-zone" onclick="document.getElementById('importFile').click()"><i class="fas fa-cloud-upload-alt"></i><p>Выберите JSON/CSV</p><input type="file" id="importFile" accept=".json,.csv" style="display:none;"></div><div id="importStatus"></div><div><select id="fieldName"></select> — Название</div><div><select id="fieldPrice"></select> — Цена</div><div><select id="fieldArticle"></select> — Артикул</div><div><select id="fieldImage"></select> — Фото</div><button class="btn btn-primary" id="runImport">Импортировать</button></div><div id="tab-seo" style="display:none;"><input type="text" id="seoTitle" value="САНТЕХМИР"><textarea id="seoDesc">Описание</textarea><button class="btn btn-primary" id="applySeo">Применить</button><button class="btn btn-outline" id="generateSitemap">Sitemap</button></div></div></div></div>
 
 <div id="toast" class="toast"></div>
 <script src="script.js"></script>
